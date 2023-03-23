@@ -17,11 +17,12 @@
         <h6>Select the size</h6>
             <button id="popup" class="btn btn-outline-danger">Select</button>
     </div>
+    <p id = "message"></p>
     <div class="board"></div>
     <div class="footer">
-        <button class="btn btn-outline-secondary">Black</button>
-        <button class="btn btn-outline-warning">Random</button>
-        <button class="btn btn-primary" type="reset">Reset</button>
+        <button class="btn btn-outline-secondary" onclick="setColor('black')">Black</button>
+        <button class="btn btn-outline-warning" onclick="setColor('random')">Random</button>
+        <button class="btn btn-primary" type="reset" onclick="resetBoard()">Reset</button>
     </div>
     <script src="main.js"></script>
 </body>
